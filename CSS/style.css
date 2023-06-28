@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-image: url('/classicpink.jpg');
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-content: stretch;
+    color:white;
+    border: solid black 1px;
+    /* note to self make text bigger*/ 
+}
+
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.title {
+    border: solid black 1px;
+}
+
+.welcome {
+    border: solid black 1px;    
+}
+
+.navbar-container {
+    /* position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 70%;*/
+    height: 70vw;
+    width: 70vw;
+    border: solid black 1px;
+}
+
+ul li {
+    display: inline-flex;
+    justify-content: center;
+    height: 40px;
+    width: 14%;
+    margin: -40px 0;
+    border: solid black 1px;
+}
+
+a {
+    display: inline-flex;
+    width: 14%;
+    padding: auto;
+    margin: 14px 0;
+    text-decoration: none;
+    color: #333;
+}
+
+ hr 
+ {
+    height: 40px;
+    width: 14%;
+    margin: -40px, 0;
+    background: linear-gradient(to right, #ab3293 0%, #4b0634 100%);
+    border: none;
+    border-radius: 50px;
+    transition:.5s ease-in-out;
+}
+
+.two:hover ~ hr
+{
+margin-left:28%;
+}
+.three:hover ~ hr
+{
+margin-left:42%;
+}
+.four:hover ~ hr
+{
+margin-left:56%;
+}
+.five:hover ~ hr
+{
+margin-left:70%;
+}
